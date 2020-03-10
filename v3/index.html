@@ -11,13 +11,41 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <div class="navbar-header">
-                <a class="navbar-brand" href="#">WebSiteName</a>
+                <a class="navbar-brand" href="#">achat <small>v3</small></a>
               </div>
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
+                <li class="dropdown"> <!-- Home -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        home <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                        <li><a href="#">test</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"> <!-- About -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        about <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" id="Button_development">development</a></li>
+                        <li><a href="#" id="Button_mission">mission</a></li>
+                        <li><a href="#" id="Button_statistics">statistics</a></li>
+                    </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown"> <!-- Authentication -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        authentication <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" id="Button_sign_in"><span class="glyphicon glyphicon-log-in"></span> sign in</a></li>
+                        <li><a href="#" id="Button_sign_up"><span class="glyphicon glyphicon-user"></span> sign up</a></li>
+                        <li><a href="#" id="Button_sign_out"><span class="glyphicon glyphicon-log-out"></span> sign out</a></li>
+                    </ul>
+                </li>
               </ul>
             </div>
           </nav>
