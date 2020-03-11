@@ -1,0 +1,47 @@
+body
+{
+    user-select: none;
+}
+
+.header
+{
+    background-image: url("/achat_v3/External/images/waterfall.jpg");
+    background-size: cover;
+}
+
+.overlay
+{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.description
+{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1
+{
+    color: white;
+}
+
+.description p
+{
+    color: #cccccc;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button
+{
+    border: 1px solid white;
+    background: white;
+    color: black;
+}
